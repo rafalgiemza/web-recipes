@@ -1,0 +1,19 @@
+.box {
+  display: -ms-grid;
+  display: grid;
+}
+
+@media all and (min-width: 700px) {
+  .box {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .box {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/*# sourceMappingURL=main.css.map */
