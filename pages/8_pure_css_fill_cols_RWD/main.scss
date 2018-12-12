@@ -1,0 +1,16 @@
+.box {
+  display: grid;
+}
+
+
+@media all and (min-width: 700px) {
+  .box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .box {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
